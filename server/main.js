@@ -1,5 +1,5 @@
-const { crawlPage } = require("./crawl");
-const { printReport } = require("./report");
+const { crawlPage } = require("./utils/crawl");
+const { printReport } = require("./utils/report");
 const main = async () => {
     if (process.argv.length < 3) {
         console.log("no website provided :(")
